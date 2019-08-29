@@ -66,6 +66,7 @@ RUN set -ex \
         php7-mcrypt \
         php7-opcache \
         php7-apcu \
+        php7-xdebug \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
 RUN set -ex \
